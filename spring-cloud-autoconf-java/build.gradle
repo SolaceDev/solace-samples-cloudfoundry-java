@@ -1,10 +1,10 @@
 buildscript {
     ext {
-        springBootVersion = '1.4.2.RELEASE'
-        springCloudVersion = '1.2.3.RELEASE'
-        solaceJCSMPVersion = '10.+'
-        solaceCloudVersion = '3.0.+'
-        solaceJavaSpringBootVersion = '2.0.+'
+        springBootVersion = '2.1.6.RELEASE'
+        springCloudVersion = '2.0.6.RELEASE'
+        solaceJCSMPVersion = '10.6.3'
+        solaceCloudVersion = '4.0.0'
+        solaceJavaSpringBootVersion = '3.1.0'
     }
     repositories {
         mavenCentral()
@@ -60,8 +60,4 @@ dependencies {
 
     compile("com.solace.spring.boot:solace-java-spring-boot-autoconfigure:${solaceJavaSpringBootVersion}")
 
-}
-
-task wrapper(type: Wrapper) {
-    gradleVersion = '4.3.1'
 }

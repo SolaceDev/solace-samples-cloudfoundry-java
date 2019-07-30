@@ -1,7 +1,7 @@
 buildscript {
     ext {
-        springBootVersion = '1.4.2.RELEASE'
-        solaceJCSMPVersion = '10.+'
+        springBootVersion = '2.1.6.RELEASE'
+        solaceJCSMPVersion = '10.6.3'
     }
     repositories {
     	mavenCentral()
