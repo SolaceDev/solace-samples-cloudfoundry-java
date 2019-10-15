@@ -51,7 +51,3 @@ dependencies {
     // Solace Java API
     compile("com.solacesystems:sol-jcsmp:${solaceJCSMPVersion}")
 }
-
-task wrapper(type: Wrapper) {
-    gradleVersion = '4.3.1'
-}
