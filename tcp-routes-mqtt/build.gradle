@@ -15,10 +15,7 @@ apply plugin: 'eclipse'
 apply plugin: 'idea'
 apply plugin: 'org.springframework.boot'
 
-jar {
-    baseName = 'solace-sample-java-app'
-    version =  ''
-}
+project.archivesBaseName =  'solace-sample-java-app'
 
 repositories {
     mavenCentral()

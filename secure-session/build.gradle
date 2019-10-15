@@ -18,10 +18,7 @@ apply plugin: 'eclipse'
 apply plugin: 'idea'
 apply plugin: 'org.springframework.boot'
 
-jar {
-    baseName = 'solace-sample-secure-session'
-    version =  ''
-}
+project.archivesBaseName = 'solace-sample-secure-session'
 
 repositories {
     mavenCentral()

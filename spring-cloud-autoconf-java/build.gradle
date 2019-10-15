@@ -19,10 +19,7 @@ apply plugin: 'eclipse'
 apply plugin: 'idea'
 apply plugin: 'org.springframework.boot'
 
-jar {
-    baseName = 'solace-sample-spring-cloud-autoconf-java'
-    version =  ''
-}
+project.archivesBaseName = 'solace-sample-spring-cloud-autoconf-java'
 
 repositories {
     mavenCentral()
