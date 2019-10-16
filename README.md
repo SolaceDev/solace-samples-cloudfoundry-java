@@ -53,8 +53,8 @@ application name: `solace-sample-spring-cloud`
 
 This application makes use of the Spring Cloud Connectors project to automatically parse the `VCAP_SERVICES` environment variable. Applications do *not* have to be a Spring Boot application to make use of Spring Cloud Connectors. This example makes use of Spring Boot for convenience in enabling the simple REST API. In any Java Applications, simply specify the following dependencies in your build:
 
-	compile 'org.springframework.cloud:spring-cloud-spring-service-connector:1.2.3.RELEASE'
-	compile 'org.springframework.cloud:spring-cloud-cloudfoundry-connector:1.2.3.RELEASE'
+	compile 'org.springframework.cloud:spring-cloud-spring-service-connector:2.0.6.RELEASE'
+	compile 'org.springframework.cloud:spring-cloud-cloudfoundry-connector:2.0.6.RELEASE'
 	compile 'com.solace.cloud.cloudfoundry:solace-spring-cloud-connector:2.1.+'
 
 The `solace-spring-cloud-connector` is a Spring Cloud Connectors extension to parse the `VCAP_SERVICES` for the Solace PubSub+ service instance information. Check out the project page for more details:
